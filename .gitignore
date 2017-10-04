@@ -6,3 +6,6 @@
 # Folders
 classes/
 Saved/
+Saved/*.*
+jar/
+jar/*.*
