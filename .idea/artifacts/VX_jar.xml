@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VX:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/VX_jar</output-path>
+    <root id="archive" name="VX.jar">
+      <element id="module-output" name="VX" />
+    </root>
+  </artifact>
+</component>
