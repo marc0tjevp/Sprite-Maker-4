@@ -5,6 +5,7 @@ import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.net.URL;
 
 public class ImgHandler implements IApplication {
@@ -14,7 +15,7 @@ public class ImgHandler implements IApplication {
     public static String[] colorArray = {"null", "red", "yellow", "green", "blue", "white", "black", "purple", "pink", "dbrown", "lbrown"};
     public static String[] cbody = {"White", "Green", "Blue", "Red", "Black", "Yellow", "Purple", "Orange", "Zombie", "Goblin", "Orc", "Minotaur", "Cyclops"};
     public final static String[] bodyColors = {"White", "Green", "Blue", "Red", "Black", "Yellow", "Purple", "Orange"};
-    public String LoadedString = new String(), colorString = new String(), partString = new String(), ImageLocation = "Data/";
+    String ImageLocation = "Data/";
     public Image[][] Male_Body = new Image[Application.usedColors + 1][Application.mbodyI + 1], Female_Body = new Image[Application.usedColors + 1][Application.fbodyI + 1];
     public Image[][][] Male_Face = new Image[Application.usedColors + 1][Application.faceI + 1][3], Female_Face = new Image[Application.usedColors + 1][Application.faceI + 1][3];
     public Image[][][] Male_Hair = new Image[Application.usedColors + 1][Application.mhairI + 1][4], Female_Hair = new Image[Application.usedColors + 1][Application.fhairI + 1][4];
